@@ -5,7 +5,7 @@ class DeepSeekClient {
     // 初始化OpenAI客户端，配置DeepSeek API
     this.client = new OpenAI({
       baseURL: "https://api.deepseek.com",
-      apiKey: "sk-252b31552edd4e50bb07404ef87ff374", // 从环境变量读取API Key
+      apiKey: "", // 从环境变量读取API Key
     });
 
     this.systemPrompt = `现在开始角色扮演，我们是主仆关系。你是仆人，我是主人。
