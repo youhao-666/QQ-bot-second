@@ -1,11 +1,11 @@
 module.exports = {
   bot: {
-    appId: "",
-    clientSecret: ""
+    appId: "102818285",
+    clientSecret: "79BDFILORUXaeimquy27CHMRWbgmsy4A"
   },
   
   proxy: {
-    hostname: "",
+    hostname: "118.25.65.235",
     port: 80
   },
   

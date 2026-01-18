@@ -1,13 +1,28 @@
 {
 
   "name": "my-js-bot",
+
   "version": "1.0.0",
+
   "description": "QQ机器人框架",
+
   "main": "src/index.js",
+
   "scripts": {
+
     "start": "node src/index.js"
+
   },
+
   "dependencies": {
+
+    "canvas": "^3.2.0",
+
+    "openai": "^6.15.0",
+
     "qq-guild-bot": "^2.9.5"
+
   }
+
 }
+
